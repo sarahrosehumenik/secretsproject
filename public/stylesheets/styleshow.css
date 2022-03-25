@@ -1,0 +1,89 @@
+body {
+ 
+    background-color:#F7DEE8;
+  
+  }
+
+  nav{
+    color: #ff7a7a;
+    margin: 10vh auto;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 1.5rem;
+    justify-content: center;
+    z-index: 1;
+    box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
+    background-color: rgba(245, 218, 210, 0.863);
+    padding: 0 5vh 0 5vh;
+    
+  
+  }
+  nav > a {
+      color: rgb(0, 173, 136);
+      font-family: 'M PLUS Rounded 1c', sans-serif;
+      text-decoration: none;
+      background-color: rgba(208, 231, 233, 0.623);
+      box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
+      padding: 1vh 1vh 1vh 1vh;
+  }
+  
+  nav > a:active {
+    width: 9.5vh;
+    height: 11.75vh;
+     box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.164);
+    /* Lowering the shadow */
+  }
+  
+  h1 { 
+    
+   
+    
+    width: 50%;
+    text-align: center;
+    color: #ff7a7a;
+    margin: 10vh auto;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 1.5rem;
+   
+    z-index: 1;
+    box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
+    background-color: rgba(245, 218, 210, 0.863);
+    padding: 10vh 5vh 10vh 5vh;
+    
+  }
+
+
+#commentwrapper {
+    position: absolute;
+
+    margin: auto;
+    left: 30%;
+ 
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+
+    width: 40%;
+
+
+}
+
+form {
+    margin: 0 10vh 0 0;
+}
+
+
+
+p {
+    background-color: white;
+    padding: .5vh .5vh .5vh .5vh;
+}
+
+button {
+    background-color: rgba(247, 0, 255, 0.527);
+    border: none;
+    box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
+    
+    padding: 1vh 1vh 1vh 1vh;
+
+}
+label {
+    padding: 2vh 0 0 0;
+}
