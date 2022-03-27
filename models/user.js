@@ -7,8 +7,9 @@ const userSchema = new mongoose.Schema({
       type: String,
       required: true
     },
-    email: String,
-    avatar: String
+
+
+    banned: Boolean,
   }, {
     timestamps: true
   });

@@ -67,8 +67,22 @@ body {
 
 form {
     margin: 0 10vh 0 0;
+    width: 40%;
+    
+}
+textarea {
+    width: 40vw;
+   
 }
 
+h2 {
+    font-size: 2vh;
+    text-align: center;
+}
+#time {
+    font-size: 2vh;
+    background-color: rgba(255, 255, 255, 0);
+}
 
 
 p {
@@ -86,4 +100,19 @@ button {
 }
 label {
     padding: 2vh 0 0 0;
+}
+span {
+    color: rgb(55, 0, 255);
+    font-size: 1.5vh;
+}
+
+@media (max-width: 500px) {
+    nav > a{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 280) {
+    nav > a {
+        font-size: .5rem;
+    }
 }

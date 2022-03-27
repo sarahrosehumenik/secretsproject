@@ -20,12 +20,13 @@ function newSecret(req, res) {
 }
 function show(req, res) {
   Secret.findById(req.params.id, (err, secrets) =>{
+  console.log(secrets.createdAt)
       res.render('secrets/show', { secrets })
   })
 }
 
 function create(req, res) {
-    console.log(req.body)
+    
   const secret = new Secret(req.body)
  
   secret.save((err) => {
@@ -36,6 +37,7 @@ function create(req, res) {
    
 })
 }
+
 
 
 

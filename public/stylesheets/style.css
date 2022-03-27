@@ -9,7 +9,7 @@ body {
   
 #inputimg {
   position: absolute;
-  height: 120vh;
+  height: 250vh;
   width: 95%;
   margin: 2% 2% 2% 2%;
   z-index: -1;
@@ -17,7 +17,7 @@ body {
   
  
 }
-h1, p { 
+h3, h1, p { 
     
    
  
@@ -44,6 +44,17 @@ p {
 font-size: 3vh;
 color: rgb(235, 31, 218);
 }
+h3 {
+  font-size: 2vh;
+  color: rgb(235, 31, 218);
+}
+li {
+  list-style: none;
+  background-color: rgba(240, 248, 255, 0);
+  
+ 
+}
+
 
 nav{
   color: #ff7a7a;
@@ -73,5 +84,6 @@ nav > a:active {
    box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.164);
   /* Lowering the shadow */
 }
+
 
 

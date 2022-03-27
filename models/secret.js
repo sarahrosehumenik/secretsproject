@@ -4,12 +4,16 @@ const Schema = mongoose.Schema
 
 
 
+
+
 const commentSchema = new Schema({
     comments: {
         type: String,
         required: true
     },
-})
+ }, {
+          timestamps: true
+      })
  
 
 const secretSchema = new Schema({
@@ -17,8 +21,11 @@ const secretSchema = new Schema({
         type: String ,
         required: true
     },
-     comments: [commentSchema],
-})
+     comments: [commentSchema]
+ },
+  {
+        timestamps: true,
+    });
 
 
 module.exports = mongoose.model('secretsCollection', secretSchema)

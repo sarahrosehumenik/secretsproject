@@ -51,6 +51,11 @@ body {
     padding: 0 5vh 0 5vh;
     
   }
+  p{
+    color:rgb(105, 133, 170);
+    background-color: rgba(223, 160, 214, 0.247);
+    text-align: center;
+  }
   
   section {
     display: grid;
@@ -97,6 +102,7 @@ body {
     grid-row: 2;
     margin: auto;
     height: 5vh;
+    width: 41vh;
     
 }
   
@@ -104,15 +110,15 @@ body {
     
     
     height: 5vh;
-    width: 47vh;
+    width: 35.5vh;
     border: 2px solid #ff41e6;
     box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
-    background-color:#d3a4a4;
+    background-color:#ff41e6;
   }
   
   #tea:active {
     height: 5vh;
-    width: 47vh;
+    width: 35.5vh;
      box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.164);
     /* Lowering the shadow */
   }
@@ -134,7 +140,7 @@ body {
     color: white;
    
   }
-  #secretsbutt:active 
+  #secretsbutt:active {
     width: 19.5vh;
     height: 9.5vh;
      box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.164);
@@ -161,5 +167,45 @@ li {
     box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
     margin: 3vh 0 0 0;
     padding: 1vh 1vh 1vh 1vh;
+    background-color: rgba(129, 174, 177, 0.486);
 }
 
+textarea {
+  width: 35vh;
+
+}
+
+
+
+@media (max-width: 1000px) {
+
+#people {
+
+  display: none;
+
+
+
+}
+
+textarea {
+  
+justify-content: center;
+  
+  height: 30vh;
+}
+#tea {
+ justify-content: center;
+  
+
+
+}
+section { 
+  display: grid;
+  margin: auto;
+
+}
+#inputimg {
+  margin: auto;
+}
+
+}

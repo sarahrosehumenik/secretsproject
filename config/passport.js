@@ -1,6 +1,14 @@
 const passport = require('passport');
 const GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
 const User = require('../models/user');
+
+const nameArray = ["ligma", "bofa", "milkums", "thickums", 'daddy', 'lil-mamma','ussy', 'simp', 'dilf', 'michaelsiller', 'skeet', 'thickums', 'shawty', 'glizums', 'katyperry', 'snookums', 'baddy', 'big-daddy', 'lil-papi'
+]
+function random (randomize) {
+const randomArray = nameArray[Math.floor(nameArray.length * Math.random(randomize))] 
+return randomArray
+}
+
 passport.use(
     new GoogleStrategy(
       // Configuration object
@@ -13,14 +21,17 @@ passport.use(
       function(accessToken, refreshToken, profile, cb) {
         // a user has logged in with OAuth...
         User.findOne({ googleId: profile.id }).then(async function(user) {
-            if (user) return cb(null, user);
+            if (user && user.banned === true) return cb((err) => {"u banned bitch"});
+            if (user && user.banned === false) return cb(null, user);
             // We have a new user via OAuth!
+            
             try {
               user = await User.create({
-                name: profile.displayName,
+                
                 googleId: profile.id,
-                email: profile.emails[0].value,
-                avatar: profile.photos[0].value
+                name: random() + profile.id.toString().slice(-4),
+                
+                banned: false,
               });
               return cb(null, user);
             } catch (err) {
@@ -40,4 +51,7 @@ passport.use(
           cb(null, user);
         });
       });
+
+
+
       
