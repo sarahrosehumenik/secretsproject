@@ -40,21 +40,16 @@ body {
     grid-column: 1/3;
   
     
-    color: #ff506d;
+    color: #ff799a;
     margin: 10vh auto;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
     justify-content: center;
     z-index: 1;
     box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
-    background-color: rgba(245, 218, 210, 0.863);
+    background-color: rgba(3, 194, 168, 0.5);
     padding: 0 5vh 0 5vh;
     
-  }
-  p{
-    color:rgb(105, 133, 170);
-    
-    text-align: center;
   }
   
   section {
@@ -75,7 +70,7 @@ body {
     display: flex;
     grid-column-start: 2;
     grid-row: 2/4;
-    height: 60vh;
+    height: 50vh;
     margin: auto;
   
     
@@ -88,8 +83,10 @@ body {
   #inputimg {
     position: absolute;
     height: 120vh;
-    width: 95%;
-    margin: 2% 2% 2% 2%;
+    width: 90%;
+    left: 5%;
+    box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
+    
     
     
    
@@ -107,10 +104,10 @@ body {
 }
   
   #tea {
-    
+    font-family: 'M PLUS Rounded 1c', sans-serif;
     
     height: 5vh;
-    width: 35.5vh;
+    width: 45.5vh;
     border: 2px solid #ff34dd;
     box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
     background-color:  #ff34dd;
@@ -122,7 +119,16 @@ body {
      box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.164);
     /* Lowering the shadow */
   }
-  
+  h2 {
+    font-size: 2vh;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
+    margin: 0 0 3vh 0;
+    background-color: #b4bfcf6b;
+   
+    
+  }
   
   #submissions {
     grid-column: 1;
@@ -164,24 +170,46 @@ li {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis ;
-    box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
+    
     margin: 3vh 0 0 0;
     padding: 1vh 1vh 1vh 1vh;
-    background-color: rgba(129, 174, 177, 0.486);
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+   
 }
 
 textarea {
-  width: 35vh;
+  width: 45vh;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  border: none;
+  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
 
 }
+p{
+  font-size: 1.5vh;
+  /* background-color: rgba(253, 253, 253, 0.486); */
+  text-align:left;
+  width: 80%;
+  margin: 1vh 0 0 2vh;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 
+}
+ label{
+   display: block;
+   margin: 2vh 0 0 0;
+   background-color: rgba(253, 253, 253, 0.795);
+   width: 80%;
+   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.342);
+   padding: 1vh 0 0 1vh;
+   font-family: 'M PLUS Rounded 1c', sans-serif;
 
+ }
+ 
 
-@media (max-width: 1000px) {
+@media (max-width: 920px) {
 
 #people {
 
-  display: none;
+ 
 
 
 
