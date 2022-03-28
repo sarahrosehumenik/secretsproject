@@ -6,4 +6,5 @@ router.get('/', secretsCtrl.index)
 router.get('/new', secretsCtrl.new)
 router.get('/:id', secretsCtrl.show)
 router.post('/', secretsCtrl.create)
+
 module.exports = router;

@@ -1,6 +1,14 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
+const profileSchema = new Schema({
+    profileComments: {
+        type: String,
+        required: true 
+    },
+
+})
+
 const userSchema = new mongoose.Schema({
     name: String,
     googleId: {
@@ -10,7 +18,11 @@ const userSchema = new mongoose.Schema({
 
 
     banned: Boolean,
-  }, {
+    profileComments: [profileSchema],
+  }, 
+
+  
+  {
     timestamps: true
   });
 

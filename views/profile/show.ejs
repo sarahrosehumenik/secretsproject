@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <% if (user) { %>
+
+            <a href="/logout">LOG OUT</a>
+            <% } else { %>
+                <a href="/auth/google" class="login">LOG IN&nbsp;<img src="https://i.imgur.com/FHjYyi0.png"></a>
+                <% } %>
+                    <a href="../secrets/new">HOME</a>
+                    
+    </nav>
+    <p>Hello <%= user.name %> </p>
+
+    <form action="/profile/<%= user._id%>" method="POST" autocomplete="off">
+        <textarea id="comment" name="profileComments" rows="12"  required maxlength="1000"  placeholder="haaaay"></textarea>
+         <button id="tea">button</button>
+       </form>
+
+       <% user.profileComments.forEach(function(u) { %>
+          <li> <%= u.profileComments %></li>
+     <% }) %>
+
+
+    
+
+   
+  
+</body>
+</html>
+

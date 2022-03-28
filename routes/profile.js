@@ -1,7 +1,8 @@
-const express = require('express');
-const router = express.Router();
-const profileController = require('../controllers/profiles');
+   
+ const express = require('express');
+ const router = express.Router();
+ const profileCtrl = require('../controllers/users');
 
-router.get('/flights/:id/profile/', profileController.show);
-
-module.exports = router;
+ router.get('/profile/:id', profileCtrl.show);
+router.post('/profile/:id', profileCtrl.create)
+ module.exports = router; 

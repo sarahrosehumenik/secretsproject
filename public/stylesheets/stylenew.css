@@ -1,6 +1,6 @@
 body {
  
-    background-color:#F7DEE8;
+  background-color:#ffe0ec;
   
   }
   nav{
@@ -40,7 +40,7 @@ body {
     grid-column: 1/3;
   
     
-    color: #ff7a7a;
+    color: #ff506d;
     margin: 10vh auto;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 1.5rem;
@@ -53,7 +53,7 @@ body {
   }
   p{
     color:rgb(105, 133, 170);
-    background-color: rgba(223, 160, 214, 0.247);
+    
     text-align: center;
   }
   
@@ -111,9 +111,9 @@ body {
     
     height: 5vh;
     width: 35.5vh;
-    border: 2px solid #ff41e6;
+    border: 2px solid #ff34dd;
     box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
-    background-color:#ff41e6;
+    background-color:  #ff34dd;
   }
   
   #tea:active {
@@ -195,6 +195,7 @@ justify-content: center;
 }
 #tea {
  justify-content: center;
+
   
 
 
