@@ -16,14 +16,14 @@ header {
 
  display: block;
   
-  color: #ff6088;
+  color: #eed546;
   margin: 10vh auto;
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 1rem;
   text-align: center;
   z-index: 1;
   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
-  background-color: rgba(44, 212, 148, 0.493);
+  background-color: rgba(44, 111, 212, 0.493);
   padding: 0 5vh 0 5vh;
   
 }
@@ -35,58 +35,19 @@ a{
   
 }
 
-h1 {
-  font-size: 3vh;
-  background-color: rgb(255, 205, 205);
-  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.226);
-
-
-}
-
-textarea {
-    display: block;
-    width: 90%;
-    margin: 1vh auto;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-  
-    
-  }
-  
-  li {
-    display: block;
-    
-    background-color: white;
-    margin: 2vh auto;
-    width: 50%;
-    padding: 3vh;
-    box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.226);
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-  }
-  
-  button {
-    display: block;
-    margin: 2vh auto;
-    background-color: rgba(247, 0, 255, 0.527);
-    border: none;
-    box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.39);
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    
-
-  
-  }
-
-  nav{
+nav{
     color: #ff7a7a;
     margin: 10vh auto;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 3vh;
+
     justify-content: center;
     z-index: 1;
     box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
     background-color: rgba(245, 218, 210, 0.863);
     padding: 0 5vh 0 5vh;
     
-  
+
   }
   nav > a {
       color: rgb(0, 173, 136);
@@ -96,26 +57,35 @@ textarea {
       box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
       padding: 1vh 1vh 1vh 1vh;
   }
-  
+
   nav > a:active {
     width: 9.5vh;
     height: 11.75vh;
      box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.164);
-    /* Lowering the shadow
+    /* Lowering the shadow */
   }
-   p{
-     font-size: 1.5vh;
-     font-family: 'M PLUS Rounded 1c', sans-serif;
-  
 
-   }
+  input {
+      border: none;
+      box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.164);
+      font-family: 'M PLUS Rounded 1c', sans-serif;
+      display: block;
+      margin: auto;
 
-h2 {
-  font-family: 'M PLUS Rounded 1c', sans-serif;
-  font-size: 3vh;
+  }
 
+  #userbutt,#picbutt {
+    background-color:  #ff34dd;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin: 2vh auto;
+  }
+
+#userform {
+    margin: 0 0 15vh 0;
+    
 }
 
-button {
-  z-index: 2;
-} */
+P {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    text-align: center;
+}

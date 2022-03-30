@@ -4,11 +4,12 @@ body {
   
   }
 
+
   nav{
     color: #ff7a7a;
     margin: 10vh auto;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 1.5rem;
+    font-size: 3vh;
     justify-content: center;
     z-index: 1;
     box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
@@ -18,12 +19,21 @@ body {
   
   }
   nav > a {
+      
+      position: relative;
+      
       color: rgb(0, 173, 136);
       font-family: 'M PLUS Rounded 1c', sans-serif;
       text-decoration: none;
       background-color: rgba(208, 231, 233, 0.623);
       box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
       padding: 1vh 1vh 1vh 1vh;
+      white-space: nowrap;
+      
+      
+    
+      
+     
   }
   
   nav > a:active {
@@ -31,7 +41,7 @@ body {
     height: 11.75vh;
      box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.164);
     /* Lowering the shadow */
-  }
+}
   
   header { 
     
@@ -60,9 +70,10 @@ body {
     font-family: 'M PLUS Rounded 1c', sans-serif;
 
     width: 40%;
+   
 
+} 
 
-}
 
 form {
     margin: 0 10vh 0 0;
@@ -72,6 +83,7 @@ form {
 textarea {
     width: 40vw;
     font-family: 'M PLUS Rounded 1c', sans-serif;
+    box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.219);
    
 }
 
@@ -83,16 +95,21 @@ h2 {
     font-size: 2vh;
     background-color: rgba(255, 255, 255, 0);
 }
+img {
+    width: 100%;
+    
+}
 
 
 p {
-    font-size: 1vh;
+    font-size: 1.5vh;
     
     padding: .5vh .5vh .5vh .5vh;
     font-family: 'M PLUS Rounded 1c', sans-serif;
+
 }
 
-button {
+#post {
     background-color: rgba(247, 0, 255, 0.527);
     border: none;
     box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.308);
@@ -100,6 +117,14 @@ button {
     padding: 1vh 1vh 1vh 1vh;
     font-family: 'M PLUS Rounded 1c', sans-serif;
 
+}
+#delete {
+    background-color:rgb(147, 192, 212);
+    border: none;
+    box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.308);
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 1.5vh;
+    
 }
 label {
     display: block;
@@ -116,14 +141,25 @@ li{
     padding: 2vh 2vh 2vh 2vh;
     box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.295);
     margin: 0 0 2vh 0;
+    font-size: 3vh;
+   
 }
-@media (max-width: 500px) {
+input {
+    width: 40vw;
+    border: none;
+    margin: 0 0 2vh 0;
+    box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.226);
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+
+}
+@media (max-width: 649px) {
     nav > a{
-        font-size: 1rem;
+      
     }
+   
 }
-@media (max-width: 280) {
+@media (max-width: 549) {
     nav > a {
-        font-size: .5rem;
+        font-size: .25rem;
     }
-}
+} 

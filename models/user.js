@@ -19,8 +19,12 @@ const userSchema = new mongoose.Schema({
 
     banned: Boolean,
     profileComments: [profileSchema],
+    img: {type: String,
+        default: "https://i.imgur.com/qcqiTKG.jpg?1"
+    },
+    
   }, 
-
+ 
   
   {
     timestamps: true

@@ -2,7 +2,8 @@ const passport = require('passport');
 const GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
 const User = require('../models/user');
 
-const nameArray = ["ligma", "bofa", "milkums", "thickums", 'daddy', 'lil-mamma','ussy', 'simp', 'dilf', 'michaelsiller', 'skeet', 'thickums', 'shawty', 'glizums', 'katyperry', 'snookums', 'baddy', 'big-daddy', 'lil-papi'
+const nameArray = ["ligma", "bofa", "milkums", "thickums", 'daddy', 'lil-mamma','ussy', 'simp', 'dilf', 'michaelsiller', 'skeet', 'thickums', 'shawty', 'glizums', 'katyperry', 'snookums', 'baddy', 'big-daddy', 'lil-papi',
+"tito-huncho", "req.body", "ben_dover"
 ]
 function random (randomize) {
 const randomArray = nameArray[Math.floor(nameArray.length * Math.random(randomize))] 
