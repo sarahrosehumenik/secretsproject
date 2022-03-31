@@ -1,88 +1,76 @@
 body {
-  background-color:#ffe0ec;
- 
+  background-color: #ffe0ec;
 }
 
 .login img {
   height: 30px;
 }
-  
+
 #inputimg {
   position: absolute;
   height: 250vh;
   width: 95%;
   margin: 2% 2% 2% 2%;
   z-index: -1;
-  
-  
- 
 }
-h3, h1, p { 
-    
-   
- 
 
-  
-  
+h3,
+h1,
+p {
   margin: 10vh auto;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
-  
+  font-family: "M PLUS Rounded 1c", sans-serif;
   justify-content: center;
   z-index: 1;
   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
   background-color: rgba(245, 218, 210, 0.863);
-   width: 60%;
-   text-align: center;
-   padding: 10vh 2vh 10vh 2vh;
-  
+  width: 60%;
+  text-align: center;
+  padding: 10vh 2vh 10vh 2vh;
 }
+
 h1 {
   font-size: 5vh;
   color: #ff7a7a;
 }
+
 p {
-font-size: 3vh;
-color: rgb(235, 31, 218);
+  font-size: 3vh;
+  color: rgb(235, 31, 218);
 }
+
 h3 {
   font-size: 2vh;
   color: rgb(235, 31, 218);
 }
+
 li {
   list-style: none;
   background-color: rgba(240, 248, 255, 0);
-  
- 
 }
 
-
-nav{
+nav {
   color: #ff7a7a;
   margin: 10vh auto;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
-  font-size: 3vh;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 5vh;
   justify-content: center;
   z-index: 1;
   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
   background-color: rgba(245, 218, 210, 0.863);
   padding: 0 5vh 0 5vh;
-  
-
 }
 nav > a {
-    color: rgb(0, 173, 136);
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    text-decoration: none;
-    background-color: rgba(208, 231, 233, 0.623);
-    box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
-    padding: 1vh 1vh 1vh 1vh;
+  color: rgb(0, 173, 136);
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  text-decoration: none;
+  background-color: rgba(208, 231, 233, 0.623);
+  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
+  padding: 1vh 1vh 1vh 1vh;
 }
 
 nav > a:active {
   width: 9.5vh;
   height: 11.75vh;
-   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.164);
+  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.164);
   /* Lowering the shadow */
 }
-
-

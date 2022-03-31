@@ -1,6 +1,5 @@
 body {
-    background-color:#ffe0ec;
-
+  background-color: #ffe0ec;
 }
 
 img {
@@ -8,84 +7,73 @@ img {
   height: 20vh;
   display: block;
   margin: auto;
-  
 }
-header { 
-    
-   
 
- display: block;
-  
+header {
+  display: block;
   color: #eed546;
   margin: 10vh auto;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
   font-size: 1rem;
   text-align: center;
   z-index: 1;
   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
   background-color: rgba(44, 111, 212, 0.493);
   padding: 0 5vh 0 5vh;
-  
 }
-a{
+
+a {
   color: black;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
-  
-  
-  
+  font-family: "M PLUS Rounded 1c", sans-serif;
 }
 
-nav{
-    color: #ff7a7a;
-    margin: 10vh auto;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 3vh;
+nav {
+  color: #ff7a7a;
+  margin: 10vh auto;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 3vh;
+  justify-content: center;
+  z-index: 1;
+  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
+  background-color: rgba(245, 218, 210, 0.863);
+  padding: 0 5vh 0 5vh;
+}
+nav > a {
+  color: rgb(0, 173, 136);
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  text-decoration: none;
+  background-color: rgba(208, 231, 233, 0.623);
+  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
+  padding: 1vh 1vh 1vh 1vh;
+}
 
-    justify-content: center;
-    z-index: 1;
-    box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
-    background-color: rgba(245, 218, 210, 0.863);
-    padding: 0 5vh 0 5vh;
-    
+nav > a:active {
+  width: 9.5vh;
+  height: 11.75vh;
+  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.164);
+  /* Lowering the shadow */
+}
 
-  }
-  nav > a {
-      color: rgb(0, 173, 136);
-      font-family: 'M PLUS Rounded 1c', sans-serif;
-      text-decoration: none;
-      background-color: rgba(208, 231, 233, 0.623);
-      box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
-      padding: 1vh 1vh 1vh 1vh;
-  }
+input {
+  border: none;
+  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.164);
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  display: block;
+  margin: auto;
+}
 
-  nav > a:active {
-    width: 9.5vh;
-    height: 11.75vh;
-     box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.164);
-    /* Lowering the shadow */
-  }
-
-  input {
-      border: none;
-      box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.164);
-      font-family: 'M PLUS Rounded 1c', sans-serif;
-      display: block;
-      margin: auto;
-
-  }
-
-  #userbutt,#picbutt {
-    background-color:  #ff34dd;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    margin: 2vh auto;
-  }
+#userbutt,
+#picbutt {
+  background-color: #ff34dd;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  margin: 2vh auto;
+}
 
 #userform {
-    margin: 0 0 15vh 0;
-    
+  margin: 0 0 15vh 0;
 }
 
 P {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    text-align: center;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  text-align: center;
 }

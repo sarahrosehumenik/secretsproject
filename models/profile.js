@@ -1,18 +1,18 @@
-const mongoose = require('mongoose')
+// const mongoose = require('mongoose')
 
-const Schema = mongoose.Schema
+// const Schema = mongoose.Schema
 
-const profileSchema = new Schema({
-    profileComments: {
-        type: String
+// const profileSchema = new Schema({
+//     profileComments: {
+//         type: String
        
-    },
-},
-    {
-      timestamps: true
+//     },
+// },
+//     {
+//       timestamps: true
      
-  });
+//   });
 
 
 
-module.exports = mongoose.model('ProfileCollections', profileSchema)
+// module.exports = mongoose.model('ProfileCollections', profileSchema)

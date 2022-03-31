@@ -1,165 +1,142 @@
 body {
- 
-    background-color:#ffe0ec;
-  
-  }
-
-
-  nav{
-    color: #ff7a7a;
-    margin: 10vh auto;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 3vh;
-    justify-content: center;
-    z-index: 1;
-    box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
-    background-color: rgba(245, 218, 210, 0.863);
-    padding: 0 5vh 0 5vh;
-    
-  
-  }
-  nav > a {
-      
-      position: relative;
-      
-      color: rgb(0, 173, 136);
-      font-family: 'M PLUS Rounded 1c', sans-serif;
-      text-decoration: none;
-      background-color: rgba(208, 231, 233, 0.623);
-      box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
-      padding: 1vh 1vh 1vh 1vh;
-      white-space: nowrap;
-      
-      
-    
-      
-     
-  }
-  
-  nav > a:active {
-    width: 9.5vh;
-    height: 11.75vh;
-     box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.164);
-    /* Lowering the shadow */
+  background-color: #ffe0ec;
 }
-  
-  header { 
-    
-   
 
-    display: block;
-     
-     color: #ff6088;
-     margin: 10vh auto;
-     font-family: 'M PLUS Rounded 1c', sans-serif;
-     font-size: 1rem;
-     text-align: center;
-     z-index: 1;
-     box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
-     background-color: rgba(44, 212, 148, 0.493);
-     padding: 0 5vh 5vh 5vh;
-     
-   }
+nav {
+  color: #ff7a7a;
+  margin: 10vh auto;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 3vh;
+  justify-content: center;
+  z-index: 1;
+  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
+  background-color: rgba(245, 218, 210, 0.863);
+  padding: 0 5vh 0 5vh;
+}
+
+nav > a {
+  position: relative;
+  color: rgb(0, 173, 136);
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  text-decoration: none;
+  background-color: rgba(208, 231, 233, 0.623);
+  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
+  padding: 1vh 1vh 1vh 1vh;
+  white-space: nowrap;
+}
+
+nav > a:active {
+  width: 9.5vh;
+  height: 11.75vh;
+  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.164);
+  /* Lowering the shadow */
+}
+
+header {
+  display: block;
+  color: #ff6088;
+  margin: 10vh auto;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  z-index: 1;
+  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
+  background-color: rgba(44, 212, 148, 0.493);
+  padding: 0 5vh 5vh 5vh;
+}
 
 #commentwrapper {
-    position: absolute;
-
-    margin: auto;
-    left: 30%;
+    position: block;
+  
+  margin: auto;
  
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-
-    width: 40%;
-   
-
-} 
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  width: 70%;
+}
 
 
 form {
-    margin: 0 10vh 0 0;
-    width: 40%;
-    
+  display: block;
+  margin: auto;
+ 
+  
 }
+
 textarea {
-    width: 40vw;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.219);
-   
+  width: 100%;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.219);
 }
 
 h2 {
-    font-size: 2vh;
-    text-align: center;
-}
-#time {
-    font-size: 2vh;
-    background-color: rgba(255, 255, 255, 0);
-}
-img {
-    width: 100%;
-    
+  font-size: 2vh;
+  text-align: center;
 }
 
+#time {
+  font-size: 2vh;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+img {
+  width: 60%;
+}
 
 p {
-    font-size: 1.5vh;
-    
-    padding: .5vh .5vh .5vh .5vh;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-
+  font-size: 1.5vh;
+  padding: 0.5vh 0.5vh 0.5vh 0.5vh;
+  font-family: "M PLUS Rounded 1c", sans-serif;
 }
 
 #post {
-    background-color: rgba(247, 0, 255, 0.527);
-    border: none;
-    box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.308);
-    
-    padding: 1vh 1vh 1vh 1vh;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-
+  background-color: rgba(247, 0, 255, 0.527);
+  border: none;
+  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.308);
+  padding: 1vh 1vh 1vh 1vh;
+  font-family: "M PLUS Rounded 1c", sans-serif;
 }
+
 #delete {
-    background-color:rgb(147, 192, 212);
-    border: none;
-    box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.308);
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 1.5vh;
-    
+  background-color: rgb(147, 192, 212);
+  border: none;
+  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.308);
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 1.5vh;
 }
-label {
-    display: block;
-    margin: 2vh 0 0 0;
-    
-}
-span {
-    color: rgb(55, 0, 255);
-    font-size: 1.5vh;
-}
-li{
-    background-color: white ;
-    list-style: none;
-    padding: 2vh 2vh 2vh 2vh;
-    box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.295);
-    margin: 0 0 2vh 0;
-    font-size: 3vh;
-   
-}
-input {
-    width: 40vw;
-    border: none;
-    margin: 0 0 2vh 0;
-    box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.226);
-    font-family: 'M PLUS Rounded 1c', sans-serif;
 
+label {
+  display: block;
+  margin: 2vh 0 0 0;
 }
+
+span {
+  color: rgb(55, 0, 255);
+  font-size: 1.5vh;
+}
+
+li {
+  background-color: white;
+  list-style: none;
+  padding: 2vh 2vh 2vh 2vh;
+  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.295);
+  margin: 0 0 2vh 0;
+  font-size: 3vh;
+}
+
+input {
+  width: 40vw;
+  border: none;
+  margin: 0 0 2vh 0;
+  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.226);
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
 @media (max-width: 649px) {
-    nav > a{
-      
-    }
-   
+  nav > a {
+  }
 }
 @media (max-width: 549) {
-    nav > a {
-        font-size: .25rem;
-    }
-} 
+  nav > a {
+    font-size: 0.25rem;
+  }
+}
