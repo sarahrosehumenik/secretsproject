@@ -198,10 +198,13 @@ label {
   }
   textarea {
     width: 100%;
+    height: 35vh;
   }
 
   #tea {
     width: 100%;
+    padding: 0 0 6vh 0;
+
   }
 
   section {
