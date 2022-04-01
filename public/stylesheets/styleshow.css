@@ -42,7 +42,12 @@ header {
   z-index: 1;
   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
   background-color: rgba(44, 212, 148, 0.493);
-  padding: 0 5vh 5vh 5vh;
+  padding: 2vh 5vh 5vh 5vh;
+}
+h1 {
+    display: block;
+  
+    font-size: 7vh;
 }
 
 #commentwrapper {
