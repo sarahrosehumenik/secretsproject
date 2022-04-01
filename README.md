@@ -1,4 +1,5 @@
-#Secrets Make Friends
+# Secrets Make Friends
+
 
 
 -After you login:
@@ -12,7 +13,7 @@
 
 https://secrets-project6969.herokuapp.com
 
-##technologies Used: 
+## technologies Used: 
 -Node.js
 -MongoDB
 -CSS
@@ -26,7 +27,7 @@ https://secrets-project6969.herokuapp.com
 -express-session
 
 
-##Next Steps:
+## Next Steps:
 -include more dynamic user experience
 -refactor how data is gathered in order to have more user forward features
 -add notifications
