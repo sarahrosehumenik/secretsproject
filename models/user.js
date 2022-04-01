@@ -8,10 +8,12 @@ const Schema = mongoose.Schema;
 const profileSchema = new Schema({
     user: { type: Schema.Types.ObjectId, ref: 'User' },
 
-    userName: String,
+    
     profileComments: {
         type: String,
-        required: true
+        required: true,
+        user: { type: Schema.Types.ObjectId, ref: 'User' },
+        userName: String,
     },
    
 
