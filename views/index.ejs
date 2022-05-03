@@ -1,49 +1,54 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100&display=swap" rel="stylesheet">
 
-    
-    <title>Secrets make friends</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    
-    
-    <img id="inputimg" src="https://i.imgur.com/kkP0Njo.png?1">
+<head>
 
-    <nav> <% if (user) { %>
-      
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100&display=swap" rel="stylesheet">
+
+
+  <title>Secrets make friends</title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+
+
+  <img id="inputimg" src="https://i.imgur.com/krtfaaG.png?1">
+
+  <nav>
+    <% if (user) { %>
+
+
       <a href="/logout">LOG OUT</a>
       <% } else { %>
         <a href="/auth/google" class="login">LOG IN&nbsp;<img src="https://i.imgur.com/FHjYyi0.png"></a>
-      <% } %>
-    
-      <a href="secrets/new">HOME</a>
-      </nav>
+        <% } %>
 
-      <h1>Secrets Make Friends</h1>
-      <p>welcome to Secrets Make friends. A place where our juciest tea brings us together.
-      Login to start spilling tea and making friendz.</p>
-      <h3>USER AGREEMENT:
-        <ul>
-          <li>no racial slurs</li>
-          <li>no threats</li>
-          <li>no hate crimes</li>
-          <li>no spamming</li>
-          <li>Must be 18+</li>
-        </ul>
-        <p>if you break these terms you are subject to be banned</p></h3>
-    
-  
-   
-           
-               <p>Data Disclosure: all user data collected upon login does not include personal identifiers</p>
-             
-      
-  </body>
+          <a href="secrets/new">HOME</a>
+  </nav>
+
+  <h1>Secrets Make Friends</h1>
+  <p>welcome to Secrets Make friends. A place where our juciest tea brings us together.
+    Login to start spilling tea and making friendz.</p>
+  <h3>USER AGREEMENT:
+    <ul>
+      <li>no racial slurs</li>
+      <li>no threats</li>
+      <li>no hate crimes</li>
+      <li>no spamming</li>
+      <li>Must be 18+</li>
+    </ul>
+    <p>if you break these terms you are subject to be banned</p>
+  </h3>
+
+
+
+
+  <p>Data Disclosure: all user data collected upon login does not include personal identifiers</p>
+
+
+</body>
+
 </html>
