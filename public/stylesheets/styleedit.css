@@ -1,49 +1,56 @@
 body {
-  background-color: #ffe0ec;
+  background-image: url('https://i.imgur.com/9NiXKv0.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 img {
   border-radius: 50%;
   height: 20vh;
   display: block;
-  margin: auto;
+  
+  margin: 5vw auto;
+  
 }
 
 header {
   display: block;
-  color: #eed546;
+  color: #000000;
   margin: 10vh auto;
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 5vh;
   text-align: center;
   z-index: 1;
   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
-  background-color: rgba(44, 111, 212, 0.493);
+  background-color: rgba(44, 111, 212, 0);
   padding: 0 5vh 0 5vh;
+  border-radius: 20px;
 }
 
 a {
   color: black;
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 nav {
   color: #ff7a7a;
-  margin: 10vh auto;
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  margin:  auto;
+  font-family: 'Montserrat', sans-serif;
   font-size: 3vh;
   justify-content: center;
   z-index: 1;
   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
-  background-color: rgba(245, 218, 210, 0.863);
+  background-color: rgba(254, 254, 254, 0.194);
   padding: 0 5vh 0 5vh;
+  border-radius: 20px;
 }
 nav > a {
-  color: rgb(0, 173, 136);
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  color: rgb(0, 0, 0);
+  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
-  background-color: rgba(208, 231, 233, 0.623);
-  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
+  margin: 1vw;
   padding: 1vh 1vh 1vh 1vh;
 }
 
@@ -56,8 +63,8 @@ nav > a:active {
 
 input {
   border: none;
-  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.164);
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  box-shadow: inset 0 4px 11px 1px rgba(0, 0, 0, 0.164);
+  font-family: 'Montserrat', sans-serif;
   display: block;
   margin: auto;
   width: 30vh;
@@ -70,11 +77,12 @@ input {
 
 #userbutt,
 #picbutt {
-  background-color: #ff34dd;
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  background-color: #dcbbfa;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.164);
   margin: 2vh auto;
   font-size: 3vh;
-  padding: 1vh 3vh 1vh 3vh;
+
 }
 
 #userform {
@@ -83,7 +91,7 @@ input {
 }
 
 P {
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-size: 3vh;
 }

@@ -1,53 +1,54 @@
 body {
-  background-color: #ffe0ec;
+  background-image: url('https://i.imgur.com/9NiXKv0.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(187,206,228);
 }
 
 nav {
-  color: #ff7a7a;
-  margin: 10vh auto;
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  color: #000000;
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
   font-size: 3vh;
   justify-content: center;
   z-index: 1;
   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
-  background-color: rgba(245, 218, 210, 0.863);
-  padding: 0 5vh 0 5vh;
+  background-color: rgba(255, 255, 255, 0.208);
+  border-radius: 20px;
+
 }
 
 nav > a {
+  margin: 1vw;
   position: relative;
-  color: rgb(0, 173, 136);
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  color: rgb(2, 2, 2);
+  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
-  background-color: rgba(208, 231, 233, 0.623);
-  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
-  padding: 1vh 1vh 1vh 1vh;
+  
   white-space: nowrap;
 }
 
-nav > a:active {
-  width: 9.5vh;
-  height: 11.75vh;
-  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.164);
-  /* Lowering the shadow */
-}
+
 
 header {
+  width: 80%;
   display: block;
-  color: #ff6088;
-  margin: 10vh auto;
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  color: #000000db;
+  margin: 3vh auto;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   text-align: center;
   z-index: 1;
-  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
-  background-color: rgba(44, 212, 148, 0.493);
+  /* box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
+  background-color: rgba(1, 172, 121, 0); */
   padding: 2vh 5vh 5vh 5vh;
+  border-radius: 20px;
 }
 h1 {
     display: block;
   
-    font-size: 7vh;
+    font-size: 4vw;
 }
 
 #commentwrapper {
@@ -55,7 +56,7 @@ h1 {
   
   margin: auto;
  
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   width: 70%;
 }
 
@@ -69,8 +70,10 @@ form {
 
 textarea {
   width: 100%;
-  font-family: "M PLUS Rounded 1c", sans-serif;
-  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.219);
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: inset 0 4px 11px 1px rgba(0, 0, 0, 0.219);
+  border: none;
+  
 }
 
 h2 {
@@ -79,8 +82,11 @@ h2 {
 }
 
 #time {
-  font-size: 2vh;
-  background-color: rgba(255, 255, 255, 0);
+  font-size: 1.5vw;
+ color: rgb(0, 0, 0);
+  margin: auto;
+  text-align: center;
+
 }
 
 img {
@@ -90,7 +96,7 @@ img {
 p {
   font-size: 1.5vh;
   padding: 0.5vh 0.5vh 0.5vh 0.5vh;
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #post {
@@ -98,20 +104,23 @@ p {
   border: none;
   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.308);
   padding: 1vh 1vh 1vh 1vh;
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #delete {
-  background-color: rgb(147, 192, 212);
+  background-color: rgb(250, 250, 250);
   border: none;
+  color: white;
   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.308);
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.5vh;
 }
 
 label {
   display: block;
   margin: 2vh 0 0 0;
+  font-size: 2.5vw;
+  
 }
 
 span {
@@ -120,20 +129,27 @@ span {
 }
 
 li {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0);
   list-style: none;
   padding: 2vh 2vh 2vh 2vh;
   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.295);
   margin: 0 0 2vh 0;
   font-size: 3vh;
+  border-radius: 20px;
 }
 
 input {
   width: 40vw;
   border: none;
   margin: 0 0 2vh 0;
-  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.226);
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  box-shadow: inset 0 4px 11px 1px rgba(0, 0, 0, 0.226);
+  font-family: 'Montserrat', sans-serif;
+}
+
+#secretdetail {
+  float: right;
+  margin: 0 0 0 0;
+  
 }
 
 @media (max-width: 649px) {
