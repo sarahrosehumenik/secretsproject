@@ -3,7 +3,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: rgb(187,206,228);
+  background-color: rgb(184,197,250);
  
   
 }
@@ -79,13 +79,14 @@ form {
 #tea {
  font-family: 'Montserrat', sans-serif;
   height: 5vh;
-  width: 45.5vh;
+  width: 50%;;
   border: 2px solid #ffffff;
   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
   background-color: #ffffff;
   font-size: 3vh;
   color: rgb(0, 0, 0);
   margin: 1vw auto;
+  
   
 }
 
@@ -118,7 +119,7 @@ h2 {
 #secretsbutt {
   margin: auto;
   height: 10vh;
-  width: 20vh;
+  width: 10s%;
   border: 2px solid white;
   background-color: #0ac5bc;
   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);

@@ -81,10 +81,10 @@ p {
   grid-row: 2;
   grid-column: 2;
 
-  width: 70%;
-  height: 80%;
-  font-size: 1.5vw;
-
+  
+  background-size: 150px;
+  font-size: 1.2rem;
+  
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   background-color: rgba(255, 255, 255, 0.452);
@@ -92,8 +92,8 @@ p {
   margin: auto;
 }
 h3 {
-  font-size: 1.5vh;
-  width: 60%;
+  font-size: 12px;
+  
   text-align: center;
   margin: auto;
 }
@@ -103,6 +103,7 @@ h3 {
   width: 100%;
   text-align: center;
   font-size: 1.5vw;
+  
 }
 
 li {
@@ -126,10 +127,12 @@ li {
   border-radius: 20px;
   grid-column: 1;
   grid-row: 2/3;
-  height: 80%;
+  
   margin: auto;
   text-align: center;
-  width: 50%;
+  background-size: 140px;
+  
+  font-size: 1.2rem;
 
 }
 
