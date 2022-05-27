@@ -8,32 +8,44 @@ body {
 }
 #editcontainer {
   background-color: white;
-  height: 90vh;
+  height: 100%;
   width: 80%;
   margin: -1vw auto;
   top: 0;
-  padding: 5vw 0 2vw 0;
+  padding: 3vw 0 2vw 0;
   object-fit:contain;
   border-radius: 0 0 20px 20px;
   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
 }
 
 #profilepic {
-  float: left;
+  text-align: center;
   border-radius: 50%;
   height: 13vw;
-  margin: 3vw 0 0 12vw;
+  margin: 3vw auto;
+ 
+ 
   
 }
 
 header {
   display: block;
   color: #000000;
-  margin: 10vh auto;
+  text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 2vw;
-  text-align: center;
+  margin: auto;
   z-index: 1;
+  background-color: rgba(154, 154, 154, 0.493);
+  width: 30vw;
+  border-radius: 20px;
+  
+  
+
  
 
 
@@ -45,49 +57,64 @@ a {
 }
 
 nav {
+  display: flex;
+  flex-direction: row;
   color: #ff7a7a;
-  margin:  auto;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3vh;
-  justify-content: center;
+  margin: auto;
+ font-family: 'Montserrat', sans-serif;
+  justify-content:space-evenly;
+  padding: 2.1vw 0 2.1vw 0;
   z-index: 1;
+  width: 90%;
   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
-  background-color: rgba(254, 254, 254, 0.194);
-  padding: 0 5vh 0 5vh;
+  background-color: rgba(234, 0, 255, 0.968);
+
   border-radius: 20px;
 }
+
 nav > a {
-  color: rgb(0, 0, 0);
-  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  
+ 
+  color: rgb(255, 255, 255);
+ font-family: 'Montserrat', sans-serif;
   text-decoration: none;
-  margin: 1vw;
+  font-size: 2vw;
   padding: 1vh 1vh 1vh 1vh;
+  
+  
 }
-
-nav > a:active {
-  width: 9.5vh;
-  height: 11.75vh;
-  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.164);
-  /* Lowering the shadow */
+nav > a:hover {
+ border-bottom: 2px solid yellow;
+  
+  
 }
-
 input {
-  border: none;
+  border: 1px solid black;
   box-shadow:  0 4px 11px 1px rgba(0, 0, 0, 0.164);
   font-family: 'Montserrat', sans-serif;
   display: block;
   margin: auto;
-  width: 30vh;
+  width: 60%;
   height: 5vh;
+  background-color: rgba(6, 110, 62, 0.399);
   
 
 
   
 }
 
+form {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 #userbutt,
 #picbutt {
-  background-color: #dcbbfa;
+  border: none;
+  background-color: rgb(237, 71, 0);
   font-family: 'Montserrat', sans-serif;
   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.164);
   margin: 2vh auto;
@@ -95,15 +122,15 @@ input {
 
 }
 
-#userform {
-  margin: 0 0 15vh 0;
 
-}
+
+
 
 P {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  font-size: 3vh;
+  font-size: 2vw;
+  
 }
 
 

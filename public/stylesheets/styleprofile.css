@@ -25,7 +25,7 @@ img {
   height: 13vw;
   display: block;
   float: left;
-  margin: 6vw 0 0 14vw;
+  margin: 3vw 0 6vw 14vw;
   
 }
 
@@ -49,6 +49,7 @@ a {
 
 h1:hover {
   background-color: rgba(255, 192, 203, 0.541);
+  border-radius: 20px;
 }
 
 

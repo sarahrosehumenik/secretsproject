@@ -28,7 +28,7 @@ nav > a {
   display: flex;
   
  
-  color: rgb(255, 255, 255);
+  color: rgb(4, 4, 4);
  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   font-size: 1.5vw;
@@ -191,11 +191,11 @@ p {
 
 #indexcontainer{
   background-color: white;
-  height: 85vh;
+  height: 110%;
   width: 80%;
   margin: -1vw auto;
   top: 0;
-  padding: 5vw 0 0 0;
+  padding: 5vw 2vw 0 0;
   object-fit:contain;
   border-radius: 0 0 20px 20px;
   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
@@ -204,9 +204,10 @@ p {
 }
 ul {
   overflow-y: scroll;
-  height: 62%;
+  height: 40vw;
   object-fit: contain;
   margin:0 0 0 -1vw;
+  
   
 }
 
@@ -257,10 +258,10 @@ label {
   display: flex;
   
  
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
-  font-size: 1.5vw;
+  font-size: 2vw;
   padding: 1vh 1vh 1vh 1vh;
   
   
@@ -298,4 +299,18 @@ label {
 
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(222, 255, 5);
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(255, 255, 255);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgb(255, 255, 255);
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: rgb(255, 255, 255);
 }

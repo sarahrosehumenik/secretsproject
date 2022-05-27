@@ -28,22 +28,25 @@
 
     </nav>
     <img id="profilepic" src="<%= user.img %>">
-
-    <p>Edit your profile picture</p>
+    <div id="profilepicedit">
+    <p id="pictext">Edit your profile picture</p>
     <form action="/profile/<%= user._id %>?_method=PUT" method="POST" autocomplete="off">
         <input type="text" name="img" placeholder="put image or gif URL here">
 
         <input type="submit" id="picbutt" value="save">
     </form>
-
+    </div>
+ 
     <header>Username: <br> <%= user.name %>
     </header>
+    <div id="editusername">
     <p>Edit your Username</p>
     <form action="/profile/<%= user._id %>?_method=PUT" method="POST" autocomplete="off" id="userform">
         <input type="text" name="name" placeholder="New Username">
 
         <input type="submit" id="userbutt" value="save">
     </form>
+    </div>
 </div>
 
 
