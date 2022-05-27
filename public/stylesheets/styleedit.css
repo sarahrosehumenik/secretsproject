@@ -28,8 +28,24 @@ body {
   height: 13vw;
   margin: 3vw auto;
  
+  
+ 
  
   
+}
+
+#profilepicedit {
+  background-color: rgba(128, 128, 128, 0.322);
+  width: 50vw;
+  margin: auto;
+  border-radius: 20px;
+}
+
+#editusername {
+  background-color: rgba(128, 128, 128, 0.322);
+  width: 50vw;
+  margin: auto;
+  border-radius: 20px;
 }
 
 header {
@@ -38,9 +54,9 @@ header {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 2vw;
-  margin: auto;
+  margin: 1vw auto;
   z-index: 1;
-  background-color: rgba(154, 154, 154, 0.493);
+  
   width: 30vw;
   border-radius: 20px;
   
@@ -97,7 +113,7 @@ input {
   margin: auto;
   width: 60%;
   height: 5vh;
-  background-color: rgba(255, 255, 255, 0.399);
+  background-color: rgb(255, 255, 255);
   
 
 

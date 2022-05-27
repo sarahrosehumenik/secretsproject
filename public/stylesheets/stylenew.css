@@ -171,7 +171,7 @@ li {
 textarea {
   width: 47vw;
   height: 15vh;
-  background-color:rgba(0, 142, 118, 0.63);
+  background-color:rgb(255, 255, 255);
   font-family: 'Montserrat', sans-serif;
   border: 1px solid rgb(0, 0, 0);
   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
@@ -303,14 +303,14 @@ label {
 
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: rgb(255, 255, 255);
+  color: rgb(0, 96, 97);
   opacity: 1; /* Firefox */
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: rgb(255, 255, 255);
+  color: rgb(0, 96, 97);
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
-  color: rgb(255, 255, 255);
+  color: rgb(0, 96, 97);
 }
