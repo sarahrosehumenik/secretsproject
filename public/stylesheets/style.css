@@ -4,7 +4,7 @@ html {
 
 #logincontainer {
   background-color: white;
-  height: 85vh;
+  height: 85%;
   width: 80%;
   margin: -1vw auto;
   top: 0;
@@ -92,7 +92,7 @@ p {
 
   
 
-  font-size: 1.2rem;
+  font-size: 1vw;
   
   text-align: center;
   font-family: 'Montserrat', sans-serif;
@@ -101,7 +101,7 @@ p {
   margin: auto;
 }
 h3 {
-  font-size: 12px;
+  font-size: 1vw;
   padding: 0 1vw 0 1vw;
   text-align: center;
   margin: auto;
@@ -142,13 +142,15 @@ li {
   text-align: center;
   background-size: 140px;
   
-  font-size: 1.2rem;
+  font-size: 1.5vw;
 
 }
 
 nav {
+  height: 1vw;
   display: flex;
   flex-direction: row;
+  align-content: center;
   color: #ff7a7a;
   margin: auto;
  font-family: 'Montserrat', sans-serif;
@@ -164,13 +166,14 @@ nav {
 
 nav > a {
   display: flex;
+
   
  
   color: rgb(0, 0, 0);
  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   font-size: 3vw;
-  padding: 1vh 1vh 1vh 1vh;
+  margin:-1vw auto;
   
   
 }
