@@ -97,7 +97,7 @@ input {
   margin: auto;
   width: 60%;
   height: 5vh;
-  background-color: rgba(6, 110, 62, 0.399);
+  background-color: rgba(255, 255, 255, 0.399);
   
 
 
@@ -114,9 +114,9 @@ form {
 #userbutt,
 #picbutt {
   border: none;
-  background-color: rgb(237, 71, 0);
+  background-color: rgb(204, 191, 2);
   font-family: 'Montserrat', sans-serif;
-  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.164);
+  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.377);
   margin: 2vh auto;
   font-size: 3vh;
 
