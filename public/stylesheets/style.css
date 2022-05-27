@@ -165,10 +165,10 @@ nav > a {
   display: flex;
   
  
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
-  font-size: 2vw;
+  font-size: 3vw;
   padding: 1vh 1vh 1vh 1vh;
   
   
