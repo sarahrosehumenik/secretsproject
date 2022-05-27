@@ -69,11 +69,14 @@ h1 {
 
 #secretswrapper {
 margin: -3vw 10vw 3vw 0;
+padding: 1vw;
 text-align: center;
 width: 30%;
 float: right;
 overflow-y: scroll;
-height: 30%;
+height: 20vw;
+background-color: rgba(128, 128, 128, 0.233);
+
 
 
 
@@ -106,7 +109,7 @@ li {
 button {
   padding: 1vw;
   display: block;
-  margin: 0 0 0 5vw;
+  margin: 0 0 0 3.5vw;
   background-color: rgba(227, 57, 0, 0.902);
   border: none;
   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.39);
