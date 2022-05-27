@@ -2,12 +2,23 @@ html {
   height: 100%;
 }
 
+#logincontainer {
+  background-color: white;
+  height: 85vh;
+  width: 80%;
+  margin: -1vw auto;
+  top: 0;
+  padding: 5vw 0 0 0;
+  object-fit:contain;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
 
+}
 body {
-  background-image: url('https://i.imgur.com/9NiXKv0.jpg');
+  background-image: url('https://i.imgur.com/o0MhXIo.jpg');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+ 
   height: 100%;
   background-attachment: fixed;
   background-color: rgb(184,197,250);
@@ -25,18 +36,16 @@ body {
   z-index: -1;
 }
 #landing {
-  background-color: rgba(255, 255, 255, 0.219);
+  
   width: 80%;
-  margin: 10vh 0 0 8vw;
+  margin: 2vh 0 0 8vw;
   padding: 2vw;
-  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
-  border: 1px solid white;
+
+
   height: 60vh;
   border-radius: 20px;
   
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: .5fr 1fr;
+  
 
 
 
@@ -79,17 +88,15 @@ p {
 
 }
 #agreement {
-  grid-row: 2;
-  grid-column: 2;
 
   
-  background-size: 150px;
+
   font-size: 1.2rem;
   
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  background-color: rgba(255, 255, 255, 0.452);
-  border-radius: 20px;
+  
+  
   margin: auto;
 }
 h3 {
@@ -139,29 +146,56 @@ li {
 }
 
 nav {
-  color: #7affb6;
- 
-  font-family: 'Montserrat', sans-serif;
-  font-size: 5vh;
- 
+  display: flex;
+  flex-direction: row;
+  color: #ff7a7a;
+  margin: auto;
+ font-family: 'Montserrat', sans-serif;
+  justify-content:space-evenly;
+  padding: 2.1vw 0 2.1vw 0;
   z-index: 1;
+  width: 90%;
   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
-  background-color: rgba(78, 235, 209, 0.349);
+  background-color: rgba(234, 0, 255, 0.968);
+
   border-radius: 20px;
-  width: 100%;
 }
+
 nav > a {
-  color: rgb(0, 0, 0);
-  font-family: 'Montserrat', sans-serif;
-  text-decoration: none;
+  display: flex;
+  
  
-
+  color: rgb(255, 255, 255);
+ font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-size: 2vw;
   padding: 1vh 1vh 1vh 1vh;
+  
+  
+}
+nav > a:hover {
+ border-bottom: 2px solid yellow;
+  
+  
 }
 
-nav > a:active {
-  width: 9.5vh;
-  height: 11.75vh;
-  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.164);
-  /* Lowering the shadow */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: rgb(254, 173, 173);
+  border-radius: 20px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(222, 255, 5);
 }

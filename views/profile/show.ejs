@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <div id="profilecontainer">
     <nav>
         <% if (user) { %>
 
@@ -33,19 +34,21 @@
 
 
 
-    <img src="<%= profileUser.img %>">
-
+    
 
     <header>
         <%= profileUser.name %>'s profile
     </header>
-    <h2>
-        <%= profileUser.name %>'s Secrets:
-    </h2>
+    <img src="<%= profileUser.img %>">
+
+    
     <div id="secretswrapper">
+        <h2>
+            <%= profileUser.name %>'s Secrets:
+        </h2>
     <% secrets.forEach(function(secret) { %>
         <a href="../secrets/<%= secret._id %>">
-            <h1>-<%= secret.yourSecret %>
+         <h1>-<%= secret.yourSecret %>
             </h1>
        
         </a>
@@ -71,7 +74,7 @@
 
 
 
-
+                  <div id="commentcontainer">
 
                     <li>
                         <p>Posted By:<%= comment.userName %>
@@ -81,11 +84,12 @@
                         <%= comment.profileComments %>
                     </li>
                     <% }) %>
+                    </div>
 
 
 
 
-
+     </div>
 
 </body>
 

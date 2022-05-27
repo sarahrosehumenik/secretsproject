@@ -1,5 +1,5 @@
 body {
-  background-image: url('https://i.imgur.com/9NiXKv0.jpg');
+  background-image: url('https://i.imgur.com/o0MhXIo.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -7,30 +7,48 @@ body {
   background-color: rgb(184,197,250);
 }
 
+#profilecontainer{
+  background-color: white;
+  height: 100%;
+  width: 80%;
+  margin: -1vw auto;
+  top: 0;
+  padding: 5vw 0 2vw 0;
+  object-fit:contain;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
+
+}
+
 img {
   border-radius: 50%;
-  height: 20vh;
+  height: 13vw;
   display: block;
-  margin: 10vw auto;
+  float: left;
+  margin: 6vw 0 0 14vw;
+  
 }
 
 header {
   display: block;
   color: #000000;
-  margin-top: 10vh;
+  margin: 3vw 0 0 10vw;
   font-family: 'Montserrat', sans-serif;
-  font-size: 5vh;
-  text-align: center;
+  font-size: 2vw;
+  text-align: left;
   z-index: 1;
- box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459); 
-  background-color: rgba(44, 212, 148, 0);
-  padding: 0 5vh 0 5vh;
-  border-radius: 20px;
+ 
 }
 
 a {
   color: black;
   font-family: 'Montserrat', sans-serif;
+  font-size: 1.5vw;
+  text-decoration: none;
+}
+
+h1:hover {
+  background-color: rgba(255, 192, 203, 0.541);
 }
 
 
@@ -38,63 +56,94 @@ a {
 h1 {
   font-size: 3vh;
   text-align: center;
+  font-size: 2vw;
   
+  
+}
+#scroll {
+  height: 50px;
+  
+ 
+}
+
+#secretswrapper {
+margin: -3vw 10vw 3vw 0;
+text-align: center;
+width: 30%;
+float: right;
+overflow-y: scroll;
+height: 30%;
+
+
+
 }
 
 textarea {
   display: block;
   width: 90%;
-  margin: 3vh auto;
+  height: 10vh;
+  margin: 1vw auto;
   font-family: 'Montserrat', sans-serif;
-  box-shadow: inset 0 4px 11px 1px rgba(0, 0, 0, 0.226);
-  border: none;
+  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.226);
+  border:1px solid black;
+  background-color: rgba(215, 211, 0, 0.781);
 }
 
 li {
   display: block;
-  background-color: rgba(255, 255, 255, 0);
-  margin: 2vh auto;
+  background-color: rgba(3, 106, 101, 0.879);
+  margin: 2vw auto;
   width: 80%;
-  padding: 3vh;
+  padding: 2vw;
   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.226);
   font-family: 'Montserrat', sans-serif;
   border-radius: 20px;
-}
+  font-size: 2vw;
+  color: white;
+ }
 
 button {
+  padding: 1vw;
   display: block;
-  margin: 2vh auto;
-  background-color: rgb(82, 136, 253);
+  margin: 0 0 0 5vw;
+  background-color: rgba(227, 57, 0, 0.902);
   border: none;
   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.39);
   font-family: 'Montserrat', sans-serif;
 }
 
 nav {
+  display: flex;
+  flex-direction: row;
   color: #ff7a7a;
-  margin:  auto;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3vh;
-  justify-content: center;
+  margin: auto;
+ font-family: 'Montserrat', sans-serif;
+  justify-content:space-evenly;
+  padding: 2.1vw 0 2.1vw 0;
   z-index: 1;
+  width: 90%;
   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
-  background-color: rgba(255, 255, 255, 0.219);
-  padding: 0 5vh 0 5vh;
+  background-color: rgba(234, 0, 255, 0.968);
+
   border-radius: 20px;
 }
 
 nav > a {
-  color: rgb(0, 0, 0);
-  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  
+ 
+  color: rgb(255, 255, 255);
+ font-family: 'Montserrat', sans-serif;
   text-decoration: none;
+  font-size: 2vw;
   padding: 1vh 1vh 1vh 1vh;
   
+  
 }
-
-nav > a:active {
-  width: 9.5vh;
-  height: 11.75vh;
-  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.164);
+nav > a:hover {
+ border-bottom: 2px solid yellow;
+  
+  
 }
 
 p {
@@ -104,10 +153,30 @@ p {
 
 h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 3vh;
+  font-size: 1.5vw;
   text-align: center;
 }
 
 button {
   z-index: 2;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: rgb(254, 173, 173);
+  border-radius: 20px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(222, 255, 5);
 }

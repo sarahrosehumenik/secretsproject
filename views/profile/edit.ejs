@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <div id="editcontainer">
     <nav>
         <% if (user) { %>
 
@@ -26,7 +27,7 @@
 
 
     </nav>
-    <img src="<%= user.img %>">
+    <img id="profilepic" src="<%= user.img %>">
 
     <p>Edit your profile picture</p>
     <form action="/profile/<%= user._id %>?_method=PUT" method="POST" autocomplete="off">
@@ -35,7 +36,7 @@
         <input type="submit" id="picbutt" value="save">
     </form>
 
-    <header>Username: <%= user.name %>
+    <header>Username: <br> <%= user.name %>
     </header>
     <p>Edit your Username</p>
     <form action="/profile/<%= user._id %>?_method=PUT" method="POST" autocomplete="off" id="userform">
@@ -43,7 +44,7 @@
 
         <input type="submit" id="userbutt" value="save">
     </form>
-
+</div>
 
 
 </body>

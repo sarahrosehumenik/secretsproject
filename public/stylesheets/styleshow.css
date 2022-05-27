@@ -152,6 +152,28 @@ input {
   
 }
 
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: rgb(254, 173, 173);
+  border-radius: 20px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(222, 255, 5);
+}
+
+
 @media (max-width: 649px) {
   nav > a {
   }
