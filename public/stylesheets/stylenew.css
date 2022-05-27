@@ -204,7 +204,7 @@ p {
 }
 ul {
   overflow-y: scroll;
-  height: 40vw;
+  height: 70vh;
   object-fit: contain;
   margin:0 0 0 -1vw;
   
