@@ -32,7 +32,7 @@ img {
 header {
   display: block;
   color: #000000;
-  margin: 3vw 0 0 10vw;
+  margin: 5vw 0 0 10vw;
   font-family: 'Montserrat', sans-serif;
   font-size: 2vw;
   text-align: left;
@@ -68,7 +68,7 @@ h1 {
 }
 
 #secretswrapper {
-margin: -3vw 10vw 3vw 0;
+margin: -2vw 10vw 3vw 0;
 padding: 1vw;
 text-align: center;
 width: 30%;
@@ -120,7 +120,9 @@ nav {
   display: flex;
   flex-direction: row;
   color: #ff7a7a;
-  margin: auto;
+ 
+
+  margin: -2vw auto;
  font-family: 'Montserrat', sans-serif;
   justify-content:space-evenly;
   padding: 2.1vw 0 2.1vw 0;

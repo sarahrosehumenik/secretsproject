@@ -191,7 +191,7 @@ p {
 
 #indexcontainer{
   background-color: white;
-  height: 110%;
+  height: 100%;
   width: 80%;
   margin: -1vw auto;
   top: 0;
@@ -204,7 +204,7 @@ p {
 }
 ul {
   overflow-y: scroll;
-  height: 70vh;
+  height: 65vh;
   object-fit: contain;
   margin:0 0 0 -1vw;
   
@@ -227,7 +227,7 @@ label {
  #secrethead {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  margin-top: 1vw;
+  margin-top: 3vw;
   font-size: 2.5vw;
   border-radius: 20px;
  }
@@ -242,7 +242,7 @@ label {
   display: flex;
   flex-direction: row;
   color: #ff7a7a;
-  margin: 3vw auto;
+  margin: -2vw auto;
  font-family: 'Montserrat', sans-serif;
   justify-content:space-evenly;
   padding: 1.8vw 0 1.8vw 0;
