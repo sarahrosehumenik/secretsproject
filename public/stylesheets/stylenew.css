@@ -17,7 +17,7 @@ nav {
   justify-content:space-evenly;
   padding: 2.1vw 0 2.1vw 0;
   z-index: 1;
-  width: 90%;
+  width: 100%;
   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
   background-color: rgba(234, 0, 255, 0.968);
 
@@ -31,7 +31,7 @@ nav > a {
   color: rgb(4, 4, 4);
  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
-  font-size: 1.5vw;
+  font-size: 2vw;
   padding: 1vh 1vh 1vh 1vh;
   
   
