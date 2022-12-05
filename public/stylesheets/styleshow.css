@@ -1,193 +1,196 @@
+html {
+  height: 100%;
+}
+  
 body {
-  background-image: url('https://i.imgur.com/o0MhXIo.jpg');
+  background: linear-gradient(rgb(227, 86, 240),pink);
   background-size: cover;
   background-position: center;
- 
+  background-attachment: fixed;
   background-color: rgb(184,197,250);
+  margin:0;
 }
 
 nav {
+  height: 40px;
   display: flex;
   flex-direction: row;
-  color: #ff7a7a;
+  align-content: center;
   margin: auto;
- font-family: 'Montserrat', sans-serif;
   justify-content:space-evenly;
-  padding: 2.1vw 0 2.1vw 0;
   z-index: 1;
   width: 90%;
   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
-  background-color: rgba(234, 0, 255, 0.968);
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 30px;
+  background-color:rgb(222, 255, 5);
 
-  border-radius: 20px;
 }
 
 nav > a {
-  display: flex;
-  
- 
-  color: rgb(0, 0, 0);
- font-family: 'Montserrat', sans-serif;
+  margin: auto;
+  color: rgb(43, 48, 48);
   text-decoration: none;
-  font-size: 2vw;
-  padding: 1vh 1vh 1vh 1vh;
-  
-  
-}
+  font-size: 18px;
+ }
+
 nav > a:hover {
- border-bottom: 2px solid yellow;
-  
-  
+color: rgb(135, 135, 135);
 }
-#detailcontainer {
+
+#detail-container {
   background-color: white;
   height: 100%;
-  width: 80%;
-  margin: -1vw auto;
-  top: 0;
-  padding: 5vw 0 2vw 0;
-  object-fit:contain;
+  width: 75%;
+  margin:auto;
+  padding-top: 3.5vh;
   border-radius: 0 0 20px 20px;
   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
-
+  font-family: 'Inter', sans-serif;
+  padding-bottom: 10vh;
 }
 
-
-
-header {
+#show-text {
+  text-align:center;
   width: 90%;
-  display: block;
-  color: #000000db;
-  margin: 2vh auto;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2vw;
-  text-align: center;
-  z-index: 1;
-  /* box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
-  background-color: rgba(1, 172, 121, 0); */
-  padding: 2vh 5vh 5vh 5vh;
-  border-radius: 20px;
-}
-h1 {
-    display: block;
-  
-    font-size: 3vw;
+  margin: 5vh auto;
+  display:flex;
+  flex-direction: column;
+
 }
 
-#commentwrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  
-  margin: auto;
- 
-  font-family: 'Montserrat', sans-serif;
-  width: 90%;
-
-  
+#user-info {
+  display:flex;
+  flex-direction: row;
+  grid-gap: 3vh;
+  align-items: center;
 }
 
-
-
-form {
-  display: block;
-  margin: auto;
- 
-  
-}
-
-textarea {
-  width: 100%;
-  font-family: 'Montserrat', sans-serif;
-  box-shadow:0 4px 11px 1px rgba(0, 0, 0, 0.219);
-  border: 1px solid black;
-  background-color: rgb(255, 255, 255);
-  height:10vw;
-  
-}
-
-h2 {
-  font-size: 2vh;
-  text-align: center;
+#secret-user {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
 }
 
 #time {
-  font-size: 1.5vw;
- color: rgb(0, 0, 0);
-  margin: auto;
-  text-align: center;
+  font-size: 14px;
+  color: grey;
+}
+
+textarea {
+  width: 96%;
+  height: 5vh;
+  background: linear-gradient(rgb(198, 244, 237),rgb(189, 189, 249));
+  border: none;
+  font-size: 15px;
+  border-radius: 40px;
+  padding: 2vh;
+  margin-bottom: 1vh;
+}
+
+#input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#url {
+  width: 68%;
+  height: 2vh;
+  background: linear-gradient(to right, rgb(0, 0, 0),rgb(211, 211, 224));
+  border: none;
+  font-size: 15px;
+  border-radius: 32px;
+  padding: 2vh;
 
 }
 
-img {
-  width: 60%;
-}
-
-p {
-  font-size: 1.5vh;
-  padding: 0.5vh 0.5vh 0.5vh 0.5vh;
-  font-family: 'Montserrat', sans-serif;
-}
-
-#post {
-  background-color: rgba(3, 146, 91, 0.879);
+#post-button {
+  background-color: rgb(125, 117, 245);
+  width: 24%;
+  border-radius: 32px;
   border: none;
   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.308);
-  height: 4vw;
-  font-family: 'Montserrat', sans-serif;
-  width: 6vw;
+  height: 5vh;
+  margin: .5vh;
+  color: white;
+}
+
+
+
+
+#forms-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 70%;
+}
+
+#submission-container {
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+
+#comment-container {
+  border-top: 1px rgb(234, 5, 255) solid;
+  margin: 3vh auto;
+  width: 90%;
+  border-bottom:1px rgb(234, 5, 255) solid;
+}
+
+#comment-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#comment-user {
+  font-size: 12px;
+  font-family: helvetica;
+  text-decoration: none;
+  color: black;
+}
+
+#comment-time {
+  font-size: 11px;
+  font-family: helvetica;
+  color: grey;
+
+}
+
+#comment-media {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  font-family: helvetica;
+  margin-bottom: 5vh;
+}
+
+#comment {
+  margin: auto;
+  width: 100%;
+  word-break: break-word;
+  color: rgb(75, 74, 74);
+}
+
+#comment-image {
+  width:20vh;
+  margin-top:5vh;
 }
 
 #delete {
-  background-color: rgb(250, 250, 250);
-  border: none;
-  color: rgb(0, 0, 0);
-  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.308);
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5vh;
+  float: right;
+  background-color: white;
+  border:none;
+  color: red;
+  cursor: pointer;
 }
 
-label {
-  display: block;
-  margin: 2vh 0 0 0;
-  font-size: 2.5vw;
 
-  
-}
-
-span {
-  color: rgb(55, 0, 255);
-  font-size: 1.5vh;
-}
-
-li {
-  display: block;
-  list-style: none;
-   margin: 2vw auto;
-   background-color: rgba(205, 198, 2, 0.879);
-  font-size: 3vh;
-  border-radius: 20px;
-  padding: 2vw 1vw 2vw 1vw;
-  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.342);
-  width: 90%;
-  
-}
-
-input {
-  height: 4vw;
-  width: 47vw;
-  border: 1px solid black;
-  margin: 0 0 2vh 0;
-  box-shadow:  0 4px 11px 1px rgba(0, 0, 0, 0.226);
-  font-family: 'Montserrat', sans-serif;
-  background-color: rgb(255, 255, 255);
-}
-
-#secretdetail {
-  float: left;
-  margin: 0 0 0 0;
-  
-}
 
 
 ::-webkit-scrollbar {
@@ -209,14 +212,25 @@ input {
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(222, 255, 5);
 }
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(255, 255, 255);
+  opacity: 1;
+  padding: 1vh; /* Firefox */
+}
+
+textarea::placeholder{
+  color: black;
+}
 
 
-@media (max-width: 649px) {
-  nav > a {
-  }
-}
-@media (max-width: 549) {
-  nav > a {
-    font-size: 0.25rem;
-  }
-}
+
+
+
+
+
+
+
+
+
+
+

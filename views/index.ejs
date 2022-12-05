@@ -1,60 +1,54 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-
-
-  <title>Secrets make friends</title>
-  <link rel='stylesheet' href='/stylesheets/style.css' />
-</head>
-
-<body>
-
-
-  <!-- <img id="inputimg" src="https://i.imgur.com/krtfaaG.png?1"> -->
- <div id="logincontainer">
-  <nav>
-    <% if (user) { %>
-
-
-      <a href="/logout">LOG OUT</a>
-      <% } else { %>
-        <a href="/auth/google" class="login">LOG IN&nbsp;<img src="https://i.imgur.com/FHjYyi0.png"></a>
-        <% } %>
-
-          <a href="secrets/new">HOME</a>
-  </nav>
-
-<div id="landing">
-
-  <h1>Secrets Make Friends</h1>
-  <p id="mission">Welcome to Secrets Make friends. A place where our juciest tea brings us together.
-    Login to start spilling tea and making friendz.<br>☺︎</p>
- 
- <div id="agreement">
-   
-    <ul>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
     
-      <li>USER AGREEMENT:</li>
-      <li>no racial slurs</li>
-      <li>no threats</li>
-      <li>no hate crimes</li>
-      <li>no spamming</li>
-      <li>Must be 18+</li>
-    </ul>
-    <h3>if you break these terms you are subject to be banned</h3>
+    <title>Secrets make friends</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
 
-</div>
+  <body>
+    <div id="index-container">
+      <nav>
+        <% if (user) { %>
+           <a href="/logout">LOG OUT</a>
+        <% } else { %>
+         <a href="/auth/google" class="login">LOG IN&nbsp;<img src="https://i.imgur.com/FHjYyi0.png"/></a>
+        <% } %>
+         <a href="secrets/new">HOME</a>
+      </nav>
+ 
+      <div id="landing">
+        <div id="info-text">
+          <h1 id="title">Secrets Make Friends</h1>
+           <p id="mission">
+          Welcome to Secrets Make friends. A place where our juciest tea brings
+          us together. Login to start spilling tea and making friendz.
+          </p>
+          <p id="data">
+            Data Disclosure: all user data collected upon login does not include
+            personal identifiers
+          </p>
+       </div>
+      <div id="disclaimers">
+        <div id="agreement">
+          <h1 id="agreement-header">USER AGREEMENT</h1>
+          <div id="agreement-list">
+            
+            <p id="rules">no racial slurs</p>
+            <p id="rules">no threats</p>
+            <p id="rules">no hate crimes</p>
+            <p id="rules">no spamming</p>
+            <p id="rules">Must be 18+</p>
+          </div>
+          <h1 id="rules-end">if you break these terms you are subject to be banned</h1>
+        </div>
+      </div>
+    </div>
+ 
 
-
-
-  <p id="data">Data Disclosure: all user data collected upon login does not include personal identifiers</p>
-
-</div>
-</div>
-</body>
-
+    </div>
+  </body>
 </html>

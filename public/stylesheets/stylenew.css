@@ -1,285 +1,121 @@
+html {
+  height: 100%;
+}
+
 body {
-  background-image: url('https://i.imgur.com/o0MhXIo.jpg');
+  background: linear-gradient(rgb(227, 86, 240),pink);
   background-size: cover;
   background-position: center;
-  
-  background-color: rgb(184,197,250);
+  background-attachment: fixed;
+  color: rgb(140, 140, 140);
+  margin:0;
  
-  
 }
 
 nav {
+  height: 40px;
   display: flex;
   flex-direction: row;
-  color: #ff7a7a;
+  align-content: center;
   margin: auto;
- font-family: 'Montserrat', sans-serif;
   justify-content:space-evenly;
-  padding: 2.1vw 0 2.1vw 0;
   z-index: 1;
-  width: 100%;
+  width: 90%;
   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
-  background-color: rgba(234, 0, 255, 0.968);
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 30px;
+  background-color:rgb(222, 255, 5);
 
-  border-radius: 20px;
 }
 
 nav > a {
-  display: flex;
-  
- 
-  color: rgb(4, 4, 4);
- font-family: 'Montserrat', sans-serif;
+  margin: auto;
+  color: rgb(43, 48, 48);
   text-decoration: none;
-  font-size: 2vw;
-  padding: 1vh 1vh 1vh 1vh;
-  
-  
-}
+  font-size: 18px;
+ }
+
 nav > a:hover {
- border-bottom: 2px solid yellow;
-  
-  
+  color: rgb(135, 135, 135);
 }
 
-header {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 1fr;
-  height: 90vh;
-  width: 60%;
-  color: #f32f60;
-  margin: -20px auto;
- font-family: 'Montserrat', sans-serif;
-  font-size: 5vh;
-  
-  z-index: 1;
-  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
+
+#new-container {
   background-color: rgb(255, 255, 255);
-  border: 1px solid white;
-  padding: 0 5vh 0 5vh;
-  border-radius: 15px;
-  
+  height: 100%;
+  width: 75%;
+  margin:auto;
+  padding-top: 3.5vh;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
 }
 
-/* section {
-  display: grid;
-  margin: 10vh 10vh 10vh 10vh;
-  position: relative;
-  grid-template-columns: 50% 50%;
+#new {
+  margin-top: 15vh;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 10vh;
+
+
+}
+
+#new-text {
+  margin-left: 3vh;
+  margin-top: 10vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#new-title {
+  color: rgb(2, 2, 140);
+  font-size: 20px;
+  border-bottom: .5px solid rgb(255, 98, 0);
+}
+#new-greeting {
+  font-size: 18px;
+  color: grey;
+}
+#secret-form{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  grid-template-rows: 1fr;
-  gap: 3px;
-  height: 100vh;
-} */
+  align-items: center;
+}
 
-
-
-
-
-form {
-  margin: -30vh 0 0 25vw;
-  
-  grid-column: 1;
-  grid-row: 3;
-
-
+textarea {
+  width: 88%;
+  height: 38vh;
+  background: linear-gradient(rgb(198, 244, 237),rgb(189, 189, 249));
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  font-size: 15px;
+  border-radius: 32px;
+  padding: 2vh;
   
   
-  width: 25vh;
+  
 }
 
 #tea {
  font-family: 'Montserrat', sans-serif;
   height: 5vh;
-  width: 50%;;
-  border: 2px solid #de3b00;
+  width: 100%;
+  border:none;
   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
-  background-color: #de3b00;
+  background-color: rgb(125, 117, 245);
   font-size: 3vh;
-  color: rgb(0, 0, 0);
-  margin: 1vw auto;
-  
-  
-}
-
-h1 {
-  grid-row: 1;
-  grid-column: 1;
-  color: rgb(67, 0, 130);
-  margin: auto;
-  font-size: 5vw;
-  text-align: center;
-
-}
-
-
-h2 {
-  grid-row: 2;
-  grid-column: 1;
-  color:rgb(0, 0, 0);
-  margin:  auto;
-  text-align: center;
-  font-size: 2vw;
-  
-}
-
-#submissions {
-  grid-column: 1;
-  grid-row: 3;
-  margin: auto;
-}
-
-#secretsbutt {
-  margin: auto;
-  height: 10vh;
-  width: 10s%;
-  border: 2px solid white;
-  background-color: #0ac5bc;
-  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
-  color: white;
-  
-}
-
-#secretsbutt:active {
-  width: 19.5vh;
-  height: 9.5vh;
-  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.164);
-  
-}
-
-.login img {
-  height: 30px;
-}
-
-#secretsid {
   color: rgb(255, 255, 255);
-  font-size: 4vh;
-  list-style: none;
+  margin: 1vw auto;
+  border-radius: 30px;
 }
 
-li {
-  width: 50%;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
- 
-  padding: 1vh 1vh 1vh 1vh;
-  font-family: 'Montserrat', sans-serif;
-}
-
-textarea {
-  width: 47vw;
-  height: 15vh;
-  background-color:rgb(255, 255, 255);
-  font-family: 'Montserrat', sans-serif;
-  border: 1px solid rgb(0, 0, 0);
-  /* box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459); */
-  font-size: 3vh;
-  grid-column: 1;
-  grid-row: 3;
-  border-radius: 20px;
-  
-}
-
-p {
-  font-size: 1.5vh;
-  text-align: left;
-  width: 80%;
-  margin: 1vh 0 0 2vh;
-  font-family: 'Montserrat', sans-serif;
-}
-
-#indexcontainer{
-  background-color: white;
-  height: 100%;
-  width: 80%;
-  margin: -1vw auto;
-  top: 0;
-  padding: 5vw 2vw 0 0;
-  object-fit:contain;
-  border-radius: 0 0 20px 20px;
-  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
-
- 
-}
-ul {
-  overflow-y: scroll;
-  height: 65vh;
-  object-fit: contain;
-  margin:0 0 0 -1vw;
-  
-  
-}
-
-label {
-  
-  font-size: 2vw;
-  color: rgb(0, 0, 0);
-  display: block;
-  margin: 2vh auto;
-  background-color: rgba(213, 195, 0, 0.879);
-  border-radius: 20px;
-  width: 90%;
-  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.342);
-  padding: 1vh 0 0 1vh;
-  font-family: 'Montserrat', sans-serif;
-}
- #secrethead {
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  margin-top: 3vw;
-  font-size: 2.5vw;
-  border-radius: 20px;
- }
-
- #thesecret {
-   color: rgb(0, 0, 0);
-   text-decoration: none;
-   font-size: 2.5vw;
-   width: 90%;
- }
- #indexnav {
-  display: flex;
-  flex-direction: row;
-  color: #ff7a7a;
-  margin: -2vw auto;
- font-family: 'Montserrat', sans-serif;
-  justify-content:space-evenly;
-  padding: 1.8vw 0 1.8vw 0;
-  z-index: 1;
-  width: 90%;
-  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
-  background-color: rgba(234, 0, 255, 0.968);
-  border-radius: 20px;
-
- }
-
- #indexnav > a {
-  display: flex;
-  
- 
-  color: rgb(0, 0, 0);
- font-family: 'Montserrat', sans-serif;
-  text-decoration: none;
-  font-size: 2vw;
-  padding: 1vh 1vh 1vh 1vh;
-  
-  
-}
-#indexnav > a:hover {
- border-bottom: 2px solid yellow;
-  
-  
-}
-
- #user{
-   color: rgb(0, 0, 0);
- }
-
- #postdetails {
-   font-size: 1.25vw;;
- }
 
 
 ::-webkit-scrollbar {
@@ -304,8 +140,9 @@ label {
 
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: rgb(0, 96, 97);
-  opacity: 1; /* Firefox */
+  color: rgb(0, 0, 0);
+  opacity: 1;
+  padding: 1vh; /* Firefox */
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
