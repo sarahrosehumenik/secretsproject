@@ -41,6 +41,7 @@ nav > a {
   color: rgb(0, 0, 0);
   text-decoration: none;
   font-size: 12px;
+  font-family: helvetica;
 }
 
 nav > a:hover {
@@ -55,5 +56,123 @@ color: rgb(255, 255, 255);
   padding-top: 3.5vh;
   border-radius: 0 0 20px 20px;
   box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.459);
+ 
 }
+
+#edit-section {
+  display:flex;
+  flex-direction: column;
+  height: 100%;
+  width: 95%;
+  margin: 7vh auto;
+  grid-gap: 10%;
+  padding-bottom:5vh;
+}
+
+#edit-pic {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50%;
+  margin:auto;
+
+}
+
+#pic-form{
+  display:flex;
+  margin: auto;
+  align-items: center;
+}
+
+#pic-form > form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+#pic-input{
+  background: linear-gradient(rgb(198, 244, 237),rgb(189, 189, 249));
+  border: none;
+  font-size: 15px;
+  border-radius: 40px;
+  padding: 2vh;
+  margin-bottom: 1vh;
+}
+
+#button-pic {
+  background-color: rgb(125, 117, 245);
+   border-radius: 32px;
+  border: none;
+  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.308);
+  color: white;
+}
+
+
+#profile-pic {
+  height: 22vh;
+  display: flex;
+  margin: auto;
+}
+
+#edit-username {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 7vh auto;
+}
+
+#username-form{
+  display:flex;
+  margin: 5vh auto;
+  align-items: center;
+  width: 50%;
+ 
+  text-align: center;
+  
+  
+}
+
+#username-form > form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  
+ 
+ 
+}
+
+#username-input{
+  background: linear-gradient(rgb(198, 244, 237),rgb(189, 189, 249));
+  border: none;
+  font-size: 15px;
+  border-radius: 40px;
+  padding: 2vh;
+  margin-bottom: 1vh;
+}
+
+#button-username {
+  background-color: rgb(125, 117, 245);
+   border-radius: 32px;
+  border: none;
+  box-shadow: 0 4px 11px 1px rgba(0, 0, 0, 0.308);
+  color: white;
+}
+
+#user-name {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  margin: auto;
+  width: 40%;
+  height: 22vh;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-family: helvetica;
+ border-radius: 30px;
+ background-color: rgb(255, 92, 22);
+}
+
 

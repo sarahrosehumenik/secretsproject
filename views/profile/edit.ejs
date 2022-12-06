@@ -27,26 +27,42 @@
 
 
     </nav>
-    <img id="profilepic" src="<%= user.img %>">
-    <div id="profilepicedit">
-    <p id="pictext">Edit your profile picture</p>
+   <div id="edit-section">
+    <div id="edit-pic">
+    <div id="pic-form">
     <form action="/profile/<%= user._id %>?_method=PUT" method="POST" autocomplete="off">
-        <input type="text" name="img" placeholder="put image or gif URL here">
-
-        <input type="submit" id="picbutt" value="save">
+        <input 
+        id="pic-input"
+        type="text" 
+        name="img" 
+        placeholder="image or gif URL">
+        <input 
+        type="submit" 
+        id="button-pic" 
+        value="save">
     </form>
+</div>
+    <img id="profile-pic" src="<%= user.img %>">
     </div>
- 
-    <header>Username: <br> <%= user.name %>
-    </header>
-    <div id="editusername">
-    <p>Edit your Username</p>
-    <form action="/profile/<%= user._id %>?_method=PUT" method="POST" autocomplete="off" id="userform">
-        <input type="text" name="name" placeholder="New Username">
-
-        <input type="submit" id="userbutt" value="save">
-    </form>
+    <div id="edit-username">
+        <h1 id="user-name">Username: <%= user.name %></h1>
+        <div id="username-form">
+        <form action="/profile/<%= user._id %>?_method=PUT" method="POST" autocomplete="off" id="userform">
+            <input 
+            id="username-input"
+            type="text" 
+            name="name" 
+            placeholder="New Username">
+            <input 
+            type="submit" 
+            id="button-username" 
+            value="save">
+        </form>
     </div>
+       
+     
+    </div>
+</div>
 </div>
 
 
