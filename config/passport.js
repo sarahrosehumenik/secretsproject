@@ -31,7 +31,7 @@ passport.use(
 
                         googleId: profile.id,
                         name: random() + profile.id.toString().slice(-4),
-
+                        
                         banned: false,
                     });
                     return cb(null, user);

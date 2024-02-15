@@ -11,8 +11,7 @@ module.exports = {
 
 function index(req, res) {
     Secret.find({}, function (err, secrets) {
-        res.render('secrets/index', { secrets })
-
+        return secrets 
     })
 }
 

@@ -15,8 +15,10 @@ var indexRouter = require('./routes/index');
 var secretsRouter = require('./routes/secrets');
 const commentsRouter = require('./routes/comments')
 const profileRouter = require('./routes/profile')
-
+const cors = require('cors')
 var app = express();
+
+app.use(cors())
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -35,10 +37,10 @@ app.use(session({
 }));
 app.use(passport.initialize());
 app.use(passport.session());
-app.use(function (req, res, next) {
-  res.locals.user = req.user;
-  next();
-});
+// app.use(function (req, res, next) {
+//   res.locals.user = req.user;
+//   next();
+// });
 
 
 app.use('/', indexRouter);
@@ -63,5 +65,10 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
+const port = 8000;
+app.listen(port, () => {
+  console.log(`Server is running on http://localhost:${port}`);
+}); 
 
 module.exports = app;
